@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../../IMG/home.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background: #343a40;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar .collapse .nav-link {
+    padding-left: 30px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background: #f1f1f1;
+    /* light gray background */
+    color: #007bff;
+    /* black text */
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: #007bff;
+    /* bootstrap blue */
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    background: #e0e0e0;
+    /* hover effect */
+    color: #0056b3;
+    /* darker blue */
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #000000, #6f42c1, #e83e8c);
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffcccb;
+    /* light pink hover */
+}
+.footer-bg {
+    background: url("../../IMG/footer.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+ .modal-content {
+     border-radius: 15px;
+     animation: pop 0.3s ease-in-out;
+ }
+
+ @keyframes pop {
+     from {
+         transform: scale(0.9);
+         opacity: 0;
+     }
+
+     to {
+         transform: scale(1);
+         opacity: 1;
+     }
+ }
