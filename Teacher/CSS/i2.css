@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../../IMG/home.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background: #343a40;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar .collapse .nav-link {
+    padding-left: 30px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background: #f1f1f1;
+    /* light gray background */
+    color: #007bff;
+    /* black text */
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: #007bff;
+    /* bootstrap blue */
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    background: #e0e0e0;
+    /* hover effect */
+    color: #0056b3;
+    /* darker blue */
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #000000, #6f42c1, #e83e8c);
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffcccb;
+    /* light pink hover */
+}
+.footer-bg {
+    background: url("../../IMG/footer.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+ /* 🌈 Animated Gradient Border + Background */
+ .profile-card {
+     position: relative;
+     border-radius: 16px;
+     padding: 10px;
+     overflow: hidden;
+     background: linear-gradient(145deg, #8f1c1c, #bd1a1a);
+     color: #3fafaf;
+ }
+
+ .profile-card::before {
+     content: "";
+     position: absolute;
+     inset: 0;
+     border-radius: 16px;
+     padding: 3px;
+     background: linear-gradient(90deg, #ff0066, #00ffff, #ff6600, #ff0066);
+     background-size: 300% 300%;
+     animation: gradientBorder 4s linear infinite;
+     
+ }
+
+ @keyframes gradientBorder {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
+ /* 🌈 Animated Gradient Border + Background */
+ .profile-card {
+     position: relative;
+     border-radius: 16px;
+     padding: 10px;
+     overflow: hidden;
+     background: linear-gradient(145deg, #b23fc2a9, #9fb6c5e0);
+     color: #fff;
+ }
+
+ .profile-card::before {
+     content: "";
+     position: absolute;
+     inset: 0;
+     border-radius: 16px;
+     padding: 3px;
+     background: linear-gradient(90deg, #ff0066, #00ffff, #ff6600, #ff0066);
+     background-size: 300% 300%;
+     animation: gradientBorder 4s linear infinite;
+
+ }
+
+ @keyframes gradientBorder {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
+ /* 🌈 Animated Gradient Text */
+ .animated-gradient-text {
+     background: linear-gradient(90deg, #ff0066, #00ffff, #ff6600, #ff0066);
+     background-size: 200% auto;
+     
+     animation: gradientMove 3s linear infinite;
+ }
+
+ @keyframes gradientMove {
+     to {
+         background-position: 200% center;
+     }
+ }
+
+ /* Gradient Header */
+ .bg-gradient {
+     background: linear-gradient(90deg, #007bff, #6610f2, #ff00ff);
+     background-size: 200% 200%;
+     animation: headerGradient 5s ease infinite;
+ }
+
+ @keyframes headerGradient {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
+ /* Profile Image Border Glow */
+ .profile-img {
+     border: 3px solid transparent;
+     background: linear-gradient(90deg, #00ffff, #ff0066, #ff6600);
+     background-size: 300%;
+     animation: glowRotate 6s linear infinite;
+ }
+
+ @keyframes glowRotate {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+
