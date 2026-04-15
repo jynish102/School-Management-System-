@@ -1,0 +1,116 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', sans-serif;
+ }
+
+ body {
+     /* Dark background */
+     background-image: url("../IMG/login.webp");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+
+ .login-container {
+     width: 900px;
+     display: flex;
+     border-radius: 20px;
+     overflow: hidden;
+     position: relative;
+     z-index: 2;
+     background: rgba(199, 40, 40, 0.05);
+     backdrop-filter: blur(10px);
+     border: 2px solid rgba(255, 255, 255, 0.1);
+     box-shadow: 0 0 50px rgba(204, 24, 24, 0.4);
+ }
+
+ .form-section,
+ .image-section {
+     flex: 1;
+     padding: 40px;
+ }
+
+ .form-section {
+     background: rgba(199, 40, 40, 0.05);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 20px;
+ }
+
+ .form-section img.logo {
+     width: 250px;
+     margin-bottom: 0.5px;
+     align-items: center;
+     padding-Left: 85px;
+
+ }
+
+ .form-section h2 {
+     font-size: 22px;
+     color: #325acf;
+ }
+
+ .form-section input {
+     padding: 12px;
+     font-size: 14px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     width: 100%;
+ }
+
+ .form-section a {
+     font-size: 13px;
+     color: #3f51b5;
+     text-align: right;
+     display: block;
+
+ }
+
+ .form-section button {
+     padding: 12px;
+     background: linear-gradient(45deg, #3f51b5, #ff7043);
+     /* Blue to orange */
+     border: none;
+     color: none;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 15px;
+ }
+
+ .image-section {
+     background: rgba(199, 40, 40, 0.05);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+ .image-section img {
+     width: 75%;
+     max-width: 320px;
+     border-radius: 30px;
+
+ }
+
+ /* Decorative Rotating Line */
+ .rotating-border {
+     position: absolute;
+     width: 960px;
+     height: 500px;
+     background: linear-gradient(45deg, #3f51b5, #ff7043);
+     border-radius: 30px;
+     transform: rotate(6deg);
+     z-index: 1;
+     opacity: 0.1;
+ }
+
+
+ 
